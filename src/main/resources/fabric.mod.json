@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "atww",
+	"version": "${version}",
+	"name": "Around The Whole World",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Rastin24"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/atww/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.rastin.atww.ATWWMod"
+		],
+		"client": [
+			"net.rastin.atww.ATWWModClient"
+		],
+		"fabric-datagen": [
+			"net.rastin.atww.ATWWModDataGenerator"
+		]
+	},
+	"mixins": [
+		"atww.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
