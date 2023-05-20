@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "atww:block/polished_stone",
+    "side": "atww:block/polished_stone",
+    "top": "atww:block/polished_stone"
+  }
+}

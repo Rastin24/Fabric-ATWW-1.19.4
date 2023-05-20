@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "polished",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "atww:polished_stone"
+    }
+  },
+  "result": {
+    "item": "atww:polished_stone_wall",
+    "count": 6
+  }
+}
