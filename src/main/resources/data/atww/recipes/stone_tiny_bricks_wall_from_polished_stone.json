@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft_stonecutter:polished_stone"
+  },
+  "result": "atww:stone_tiny_bricks_wall"
+}

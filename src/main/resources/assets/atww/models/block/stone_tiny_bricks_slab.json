@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "atww:block/stone_tiny_bricks",
+    "side": "atww:block/stone_tiny_bricks",
+    "top": "atww:block/stone_tiny_bricks"
+  }
+}

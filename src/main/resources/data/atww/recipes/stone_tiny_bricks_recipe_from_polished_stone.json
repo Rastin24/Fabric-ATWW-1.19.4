@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "atww:stone_type"
+  },
+  "result": "atww:stone_tiny_bricks"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mossy_polished_stairs",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "atww:mossy_polished_stone"
+    }
+  },
+  "result": {
+    "item": "atww:mossy_polished_stone_stairs",
+    "count": 4
+  }
+}

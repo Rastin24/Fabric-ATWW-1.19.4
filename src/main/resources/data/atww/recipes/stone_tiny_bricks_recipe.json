@@ -2,16 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "group": "craft_group",
   "pattern": [
-    "###",
-    "###"
+    "##"
+    
+
   ],
   "key": {
     "#": {
-      "item": "source_stonecutter:mossy_final_name"
+      "item": "minecraft:stone"
     }
   },
   "result": {
-    "item": "atww:mossy_final_name_wall",
-    "count": 6
+    "item": "atww:stone_tiny_bricks",
+    "count": 2
   }
 }

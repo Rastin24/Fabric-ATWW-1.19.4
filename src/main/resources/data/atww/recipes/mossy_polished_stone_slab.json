@@ -1,17 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "craft_group",
+  "group": "mossy_polished",
   "pattern": [
-    "###",
     "###"
   ],
   "key": {
     "#": {
-      "item": "source_stonecutter:mossy_final_name"
+      "item": "atww:mossy_polished_stone"
     }
   },
   "result": {
-    "item": "atww:mossy_final_name_wall",
+    "item": "atww:mossy_polished_stone_slab",
     "count": 6
   }
 }

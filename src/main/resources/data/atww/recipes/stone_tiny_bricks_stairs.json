@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tiny_bricks_stairs",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "atww:stone_tiny_bricks"
+    }
+  },
+  "result": {
+    "item": "atww:stone_tiny_bricks_stairs",
+    "count": 4
+  }
+}
