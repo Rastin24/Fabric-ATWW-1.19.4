@@ -42,7 +42,6 @@ public class ModBlocks {
     public static final Block MOSSY_POLISHED_STONE_WALL = registerBlock("mossy_polished_stone_wall",
             new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
 
-
     //TINY BRICKS
     public static final Block STONE_TINY_BRICKS = registerBlock("stone_tiny_bricks",
             new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
