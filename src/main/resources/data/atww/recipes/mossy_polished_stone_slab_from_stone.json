@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "atww:mossy_polished_stone"
+  },
+  "result": "atww:mossy_polished_stone_slab"
+}

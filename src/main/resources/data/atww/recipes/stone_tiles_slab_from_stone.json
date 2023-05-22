@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
+  "count": 2,
   "ingredient": {
     "item": "minecraft:stone"
   },
-  "result": "atww:polished_stone_wall"
+  "result": "atww:stone_tiles_slab"
 }

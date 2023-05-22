@@ -12,6 +12,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.rastin.atww.ATWWMod;
 import net.rastin.atww.item.ModItemGroup;
@@ -39,6 +40,27 @@ public class ModBlocks {
     public static final Block MOSSY_POLISHED_STONE_SLAB = registerBlock("mossy_polished_stone_slab",
             new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
     public static final Block MOSSY_POLISHED_STONE_WALL = registerBlock("mossy_polished_stone_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+
+
+    //TINY BRICKS
+    public static final Block STONE_TINY_BRICKS = registerBlock("stone_tiny_bricks",
+            new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block STONE_TINY_BRICKS_STAIRS = registerBlock("stone_tiny_bricks_stairs",
+            new ModStairsBlock(ModBlocks.POLISHED_STONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block STONE_TINY_BRICKS_SLAB = registerBlock("stone_tiny_bricks_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block STONE_TINY_BRICKS_WALL = registerBlock("stone_tiny_bricks_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+
+    //TILES
+    public static final Block STONE_TILES = registerBlock("stone_tiles",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block STONE_TILES_STAIRS = registerBlock("stone_tiles_stairs",
+            new ModStairsBlock(ModBlocks.POLISHED_STONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block STONE_TILES_SLAB = registerBlock("stone_tiles_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block STONE_TILES_WALL = registerBlock("stone_tiles_wall",
             new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
 
 

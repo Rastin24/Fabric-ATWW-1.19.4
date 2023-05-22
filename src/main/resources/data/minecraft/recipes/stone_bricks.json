@@ -1,18 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "craft_group",
+  "group": "bricks",
   "pattern": [
     "##"
-    
-
   ],
   "key": {
     "#": {
-      "item": "minecraft:stone_bricks"
+      "item": "atww:polished_stone"
     }
   },
   "result": {
-    "item": "atww:stone_tiny_bricks",
+    "item": "minecraft:stone_bricks",
     "count": 2
   }
 }
