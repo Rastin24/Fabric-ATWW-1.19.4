@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tiny_tiles",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "atww:stone_tiny_tiles"
+    }
+  },
+  "result": {
+    "item": "atww:stone_tiny_tiles_slab",
+    "count": 6
+  }
+}

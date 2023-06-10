@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "atww:block/stone_tiny_tiles_slab"
+    },
+    "type=double": {
+      "model": "atww:block/stone_tiny_tiles_slab_full"
+    },
+    "type=top": {
+      "model": "atww:block/stone_tiny_tiles_slab_top"
+    }
+  }
+}

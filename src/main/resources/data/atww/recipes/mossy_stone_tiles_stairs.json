@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mossy_tiles_stairs",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "atww:mossy_stone_tiles"
+    }
+  },
+  "result": {
+    "item": "atww:mossy_stone_tiles_stairs",
+    "count": 4
+  }
+}

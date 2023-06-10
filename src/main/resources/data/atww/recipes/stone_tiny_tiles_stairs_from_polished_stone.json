@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 2,
+  "count": 1,
   "ingredient": {
     "item": "atww:polished_stone"
   },
-  "result": "atww:polished_stone_slab"
+  "result": "atww:stone_tiny_tiles_stairs"
 }

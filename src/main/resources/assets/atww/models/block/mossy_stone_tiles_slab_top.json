@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "atww:block/mossy_stone_tiles",
+    "side": "atww:block/mossy_stone_tiles",
+    "top": "atww:block/mossy_stone_tiles"
+  }
+}

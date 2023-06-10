@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "atww:mossy_stone_tiny_bricks_wall"
+        }
+      ]
+    }
+  ]
+}

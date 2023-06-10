@@ -1,9 +1,10 @@
 {
   "asset_name": "charcoal",
   "description": {
-    "color": "#B4684D",
-    "translate": "trim_material.minecraft.charcoal"
+    "color": "#605543",
+    "translate": "trim_material.atww.charcoal"
   },
+  "incompatible_armor_material": "new",
   "ingredient": "minecraft:charcoal",
   "item_model_index": 1.1
 }

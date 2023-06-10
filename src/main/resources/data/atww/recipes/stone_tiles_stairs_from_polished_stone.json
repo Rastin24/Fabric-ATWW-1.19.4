@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "minecraft_stonecutter:polished_stone"
+    "item": "atww:polished_stone"
   },
   "result": "atww:stone_tiles_stairs"
 }

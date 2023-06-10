@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "atww:block/mossy_stone_tiles_slab"
+    },
+    "type=double": {
+      "model": "atww:block/mossy_stone_tiles_slab_full"
+    },
+    "type=top": {
+      "model": "atww:block/mossy_stone_tiles_slab_top"
+    }
+  }
+}
