@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "atww:block/cracked_stone_tiny_bricks",
+    "side": "atww:block/cracked_stone_tiny_bricks",
+    "top": "atww:block/cracked_stone_tiny_bricks"
+  }
+}

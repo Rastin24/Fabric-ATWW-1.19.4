@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "atww:block/cracked_stone_tiny_bricks",
+    "side": "atww:block/cracked_stone_tiny_bricks"
+  }
+}

@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "atww:mossy_stone_tiny_bricks"
+    "item": "minecraft:stone"
   },
-  "result": "atww:mossy_stone_tiny_bricks_wall"
+  "result": "atww:stone_tiny_bricks_wall"
 }

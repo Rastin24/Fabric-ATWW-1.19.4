@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "atww:stone_tiny_bricks"
+  },
+  "result": "atww:cracked_stone_tiny_bricks"
+}

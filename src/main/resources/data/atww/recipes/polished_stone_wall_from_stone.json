@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "atww:mossy_polished_stone"
+    "item": "minecraft:stone"
   },
-  "result": "atww:mossy_polished_stone_wall"
+  "result": "atww:polished_stone_wall"
 }

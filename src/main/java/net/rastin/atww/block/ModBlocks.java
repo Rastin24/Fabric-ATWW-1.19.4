@@ -42,6 +42,24 @@ public class ModBlocks {
     public static final Block MOSSY_POLISHED_STONE_WALL = registerBlock("mossy_polished_stone_wall",
             new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
 
+    //CRACKED POLISHED
+    public static final Block CRACKED_POLISHED_STONE = registerBlock("cracked_polished_stone",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block CRACKED_POLISHED_STONE_STAIRS = registerBlock("cracked_polished_stone_stairs",
+            new ModStairsBlock(ModBlocks.POLISHED_STONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block CRACKED_POLISHED_STONE_SLAB = registerBlock("cracked_polished_stone_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block CRACKED_POLISHED_STONE_WALL = registerBlock("cracked_polished_stone_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+
+    //BRICKS
+    public static final Block CRACKED_STONE_BRICKS_STAIRS = registerBlock("cracked_stone_bricks_stairs",
+            new ModStairsBlock(ModBlocks.POLISHED_STONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block CRACKED_STONE_BRICKS_SLAB = registerBlock("cracked_stone_bricks_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block CRACKED_STONE_BRICKS_WALL = registerBlock("cracked_stone_bricks_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+
     //TINY BRICKS
     public static final Block STONE_TINY_BRICKS = registerBlock("stone_tiny_bricks",
             new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
@@ -60,6 +78,16 @@ public class ModBlocks {
     public static final Block MOSSY_STONE_TINY_BRICKS_SLAB = registerBlock("mossy_stone_tiny_bricks_slab",
             new SlabBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
     public static final Block MOSSY_STONE_TINY_BRICKS_WALL = registerBlock("mossy_stone_tiny_bricks_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+
+    //CRACKED TINY BRICKS
+    public static final Block CRACKED_STONE_TINY_BRICKS = registerBlock("cracked_stone_tiny_bricks",
+            new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block CRACKED_STONE_TINY_BRICKS_STAIRS = registerBlock("cracked_stone_tiny_bricks_stairs",
+            new ModStairsBlock(ModBlocks.POLISHED_STONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block CRACKED_STONE_TINY_BRICKS_SLAB = registerBlock("cracked_stone_tiny_bricks_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block CRACKED_STONE_TINY_BRICKS_WALL = registerBlock("cracked_stone_tiny_bricks_wall",
             new WallBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
 
     //TILES
@@ -82,25 +110,45 @@ public class ModBlocks {
     public static final Block MOSSY_STONE_TILES_WALL = registerBlock("mossy_stone_tiles_wall",
             new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
 
+    //CRACKED TILES
+    public static final Block CRACKED_STONE_TILES = registerBlock("cracked_stone_tiles",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block CRACKED_STONE_TILES_STAIRS = registerBlock("cracked_stone_tiles_stairs",
+            new ModStairsBlock(ModBlocks.POLISHED_STONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block CRACKED_STONE_TILES_SLAB = registerBlock("cracked_stone_tiles_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block CRACKED_STONE_TILES_WALL = registerBlock("cracked_stone_tiles_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+
     //TINY TILES
     public static final Block STONE_TINY_TILES = registerBlock("stone_tiny_tiles",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+            new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
     public static final Block STONE_TINY_TILES_STAIRS = registerBlock("stone_tiny_tiles_stairs",
-            new ModStairsBlock(ModBlocks.POLISHED_STONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+            new ModStairsBlock(ModBlocks.POLISHED_STONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
     public static final Block STONE_TINY_TILES_SLAB = registerBlock("stone_tiny_tiles_slab",
-            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
     public static final Block STONE_TINY_TILES_WALL = registerBlock("stone_tiny_tiles_wall",
-            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+            new WallBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
 
     //MOSSY TINY TILES
     public static final Block MOSSY_STONE_TINY_TILES = registerBlock("mossy_stone_tiny_tiles",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+            new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
     public static final Block MOSSY_STONE_TINY_TILES_STAIRS = registerBlock("mossy_stone_tiny_tiles_stairs",
-            new ModStairsBlock(ModBlocks.POLISHED_STONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+            new ModStairsBlock(ModBlocks.POLISHED_STONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
     public static final Block MOSSY_STONE_TINY_TILES_SLAB = registerBlock("mossy_stone_tiny_tiles_slab",
-            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
     public static final Block MOSSY_STONE_TINY_TILES_WALL = registerBlock("mossy_stone_tiny_tiles_wall",
-            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+            new WallBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+
+    //CRACKED TINY TILES
+    public static final Block CRACKED_STONE_TINY_TILES = registerBlock("cracked_stone_tiny_tiles",
+            new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block CRACKED_STONE_TINY_TILES_STAIRS = registerBlock("cracked_stone_tiny_tiles_stairs",
+            new ModStairsBlock(ModBlocks.POLISHED_STONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block CRACKED_STONE_TINY_TILES_SLAB = registerBlock("cracked_stone_tiny_tiles_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
+    public static final Block CRACKED_STONE_TINY_TILES_WALL = registerBlock("cracked_stone_tiny_tiles_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_BRICKS).strength(1.5f).requiresTool()), ModItemGroup.ATWW_BUILDING);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

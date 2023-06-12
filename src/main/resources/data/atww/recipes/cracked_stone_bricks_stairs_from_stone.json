@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "craft_group_stairs",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "atww:cracked_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "atww:cracked_stone_bricks_stairs",
+    "count": 4
+  }
+}

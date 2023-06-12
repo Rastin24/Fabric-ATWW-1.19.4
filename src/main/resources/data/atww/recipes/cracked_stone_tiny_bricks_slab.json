@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cracked_tiny_bricks",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "atww:cracked_stone_tiny_bricks"
+    }
+  },
+  "result": {
+    "item": "atww:cracked_stone_tiny_bricks_slab",
+    "count": 6
+  }
+}
