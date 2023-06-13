@@ -25,20 +25,7 @@ public class ModItems {
         return Registry.register(Registries.ITEM, new Identifier(ATWWMod.MOD_ID, name), item);
     }
 
-    public static void addItemsToItemGroup() {
-        addToItemGroup(ItemGroups.INGREDIENTS, COPPER_NUGGET);
-        addToItemGroup(ItemGroups.INGREDIENTS, RAW_IRON_NUGGET);
-        addToItemGroup(ItemGroups.INGREDIENTS, RAW_COPPER_NUGGET);
-        addToItemGroup(ItemGroups.INGREDIENTS, RAW_GOLD_NUGGET);
-    }
-
-    private static void addToItemGroup(ItemGroup group, Item item) {
-        ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
-    }
-
     public static void registerModItems() {
         ATWWMod.LOGGER.info("Registering Mod Items for " + ATWWMod.MOD_ID);
-
-        addItemsToItemGroup();
     }
 }
