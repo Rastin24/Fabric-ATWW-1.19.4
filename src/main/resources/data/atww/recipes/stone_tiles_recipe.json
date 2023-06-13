@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "craft_group",
+  "group": "tiles",
   "pattern": [
     "##",
     "##"
@@ -8,7 +8,7 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:"
+      "item": "atww:polished_stone"
     }
   },
   "result": {

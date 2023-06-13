@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cube_column",
   "textures": {
     "end": "atww:block/polished_stone",
-    "side": "atww:block/polished_stone_double_slab"
+    "side": "atww:block/polished_stone"
   }
 }

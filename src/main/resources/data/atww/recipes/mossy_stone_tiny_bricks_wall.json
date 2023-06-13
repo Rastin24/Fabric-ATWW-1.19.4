@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "tiny_bricks",
+  "group": "mossy_tiny_bricks_wall",
   "pattern": [
     "###",
     "###"

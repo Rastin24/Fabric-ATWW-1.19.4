@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "craft_group",
+  "group": "tiny_tiles",
   "pattern": [
     "##",
     "##"
@@ -8,7 +8,7 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stone_tiles"
+      "item": "atww:stone_tiles"
     }
   },
   "result": {

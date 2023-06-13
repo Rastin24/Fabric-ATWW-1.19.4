@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "minecraft:stone"
+    "item": "minecraft:stone_bricks"
   },
   "result": "atww:stone_tiny_bricks"
 }

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "craft_group",
+  "group": "tiny_bricks",
   "pattern": [
-    "##",
     "##"
+    
 
   ],
   "key": {
@@ -13,6 +13,6 @@
   },
   "result": {
     "item": "atww:stone_tiny_bricks",
-    "count": 4
+    "count": 2
   }
 }

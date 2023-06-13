@@ -13,6 +13,12 @@ import net.rastin.atww.ATWWMod;
 public class ModItems {
     public static final Item COPPER_NUGGET = registerItem("copper_nugget",
             new Item(new FabricItemSettings()));
+    public static final Item RAW_IRON_NUGGET = registerItem("raw_iron_nugget",
+            new Item(new FabricItemSettings()));
+    public static final Item RAW_COPPER_NUGGET = registerItem("raw_copper_nugget",
+            new Item(new FabricItemSettings()));
+    public static final Item RAW_GOLD_NUGGET = registerItem("raw_gold_nugget",
+            new Item(new FabricItemSettings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -21,6 +27,9 @@ public class ModItems {
 
     public static void addItemsToItemGroup() {
         addToItemGroup(ItemGroups.INGREDIENTS, COPPER_NUGGET);
+        addToItemGroup(ItemGroups.INGREDIENTS, RAW_IRON_NUGGET);
+        addToItemGroup(ItemGroups.INGREDIENTS, RAW_COPPER_NUGGET);
+        addToItemGroup(ItemGroups.INGREDIENTS, RAW_GOLD_NUGGET);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item) {

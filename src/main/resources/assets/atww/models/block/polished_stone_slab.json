@@ -2,7 +2,7 @@
   "parent": "minecraft:block/slab",
   "textures": {
     "bottom": "atww:block/polished_stone",
-    "side": "atww:block/polished_stone_double_slab",
+    "side": "atww:block/polished_stone",
     "top": "atww:block/polished_stone"
   }
 }

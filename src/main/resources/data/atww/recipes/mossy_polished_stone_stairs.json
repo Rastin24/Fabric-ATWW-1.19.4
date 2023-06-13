@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "cracked_craft_group_stairs",
+  "group": "mossy_polished_stairs",
   "pattern": [
     "# ",
     "##"
   ],
   "key": {
     "#": {
-      "item": "source_stonecutter:cracked_final_name"
+      "item": "atww:mossy_polished_stone"
     }
   },
   "result": {
-    "item": "atww:cracked_final_name_stairs",
+    "item": "atww:mossy_polished_stone_stairs",
     "count": 4
   }
 }
