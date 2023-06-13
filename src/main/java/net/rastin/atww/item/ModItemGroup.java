@@ -2,7 +2,9 @@ package net.rastin.atww.item;
 
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -15,7 +17,7 @@ import net.rastin.atww.block.ModBlocks;
 public class ModItemGroup {
     public static ItemGroup ATWW_BUILDING = Registry.register(Registries.ITEM_GROUP, new Identifier(ATWWMod.MOD_ID, "atww"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.atww"))
-                    .icon(() -> new ItemStack(ModItems.COPPER_NUGGET)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModBlocks.POLISHED_STONE)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.POLISHED_STONE);
                         entries.add(ModBlocks.POLISHED_STONE_STAIRS);
                         entries.add(ModBlocks.POLISHED_STONE_SLAB);
@@ -76,6 +78,25 @@ public class ModItemGroup {
                     }).build());
 
     public static void registerItemGroups() {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(ModItems.COPPER_NUGGET);
+
+            entries.add(ModItems.RAW_IRON_NUGGET);
+            entries.add(ModItems.RAW_COPPER_NUGGET);
+            entries.add(ModItems.RAW_GOLD_NUGGET);
+
+            entries.add(ModItems.OAK_PLANK);
+            entries.add(ModItems.SPRUCE_PLANK);
+            entries.add(ModItems.BIRCH_PLANK);
+            entries.add(ModItems.JUNGLE_PLANK);
+            entries.add(ModItems.ACACIA_PLANK);
+            entries.add(ModItems.DARK_OAK_PLANK);
+            entries.add(ModItems.MANGROVE_PLANK);
+            entries.add(ModItems.CHERRY_PLANK);
+            entries.add(ModItems.CRIMSON_PLANK);
+            entries.add(ModItems.WARPED_PLANK);
+
+        });
 
     }
 }

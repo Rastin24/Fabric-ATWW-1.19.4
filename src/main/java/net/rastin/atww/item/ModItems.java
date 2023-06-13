@@ -19,6 +19,26 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item RAW_GOLD_NUGGET = registerItem("raw_gold_nugget",
             new Item(new FabricItemSettings()));
+    public static final Item ACACIA_PLANK = registerItem("acacia_plank",
+            new Item(new FabricItemSettings()));
+    public static final Item BIRCH_PLANK = registerItem("birch_plank",
+            new Item(new FabricItemSettings()));
+    public static final Item CHERRY_PLANK = registerItem("cherry_plank",
+            new Item(new FabricItemSettings()));
+    public static final Item CRIMSON_PLANK = registerItem("crimson_plank",
+            new Item(new FabricItemSettings()));
+    public static final Item DARK_OAK_PLANK = registerItem("dark_oak_plank",
+            new Item(new FabricItemSettings()));
+    public static final Item JUNGLE_PLANK = registerItem("jungle_plank",
+            new Item(new FabricItemSettings()));
+    public static final Item MANGROVE_PLANK = registerItem("mangrove_plank",
+            new Item(new FabricItemSettings()));
+    public static final Item OAK_PLANK = registerItem("oak_plank",
+            new Item(new FabricItemSettings()));
+    public static final Item SPRUCE_PLANK = registerItem("spruce_plank",
+            new Item(new FabricItemSettings()));
+    public static final Item WARPED_PLANK = registerItem("warped_plank",
+            new Item(new FabricItemSettings()));
 
 
     private static Item registerItem(String name, Item item) {
