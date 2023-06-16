@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "plank_to_planks",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "atww:birch_plank"
+    }
+  },
+  "result": {
+    "item": "minecraft:birch_planks",
+    "count": 1
+  }
+}

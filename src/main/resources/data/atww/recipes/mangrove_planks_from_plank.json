@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "plank_to_planks",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "atww:mangrove_plank"
+    }
+  },
+  "result": {
+    "item": "minecraft:mangrove_planks",
+    "count": 1
+  }
+}
