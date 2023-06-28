@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bricks",
+  "pattern": [
+    "##"
+    
+
+  ],
+  "key": {
+    "#": {
+      "item": "atww:polished_andesite"
+    }
+  },
+  "result": {
+    "item": "atww:andesite_bricks",
+    "count": 2
+  }
+}

@@ -3,6 +3,8 @@ package net.rastin.atww.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
@@ -75,10 +77,112 @@ public class ModItemGroup {
                         entries.add(ModBlocks.CRACKED_STONE_TINY_TILES_WALL);
 
 
+
+                        entries.add(ModBlocks.ANDESITE_BRICKS);
+                        entries.add(ModBlocks.ANDESITE_BRICKS_STAIRS);
+                        entries.add(ModBlocks.ANDESITE_BRICKS_SLAB);
+                        entries.add(ModBlocks.ANDESITE_BRICKS_WALL);
+
+                        entries.add(ModBlocks.ANDESITE_TINY_BRICKS);
+                        entries.add(ModBlocks.ANDESITE_TINY_BRICKS_STAIRS);
+                        entries.add(ModBlocks.ANDESITE_TINY_BRICKS_SLAB);
+                        entries.add(ModBlocks.ANDESITE_TINY_BRICKS_WALL);
+
+
+
+                        entries.add(Blocks.TERRACOTTA);
+                        entries.add(ModBlocks.TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.TERRACOTTA_WALL);
+
+                        entries.add(Blocks.WHITE_TERRACOTTA);
+                        entries.add(ModBlocks.WHITE_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.WHITE_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.WHITE_TERRACOTTA_WALL);
+
+                        entries.add(Blocks.LIGHT_GRAY_TERRACOTTA);
+                        entries.add(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.LIGHT_GRAY_TERRACOTTA_WALL);
+
+                        entries.add(Blocks.GRAY_TERRACOTTA);
+                        entries.add(ModBlocks.GRAY_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.GRAY_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.GRAY_TERRACOTTA_WALL);
+
+                        entries.add(Blocks.BLACK_TERRACOTTA);
+                        entries.add(ModBlocks.BLACK_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.BLACK_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.BLACK_TERRACOTTA_WALL);
+
+                        entries.add(Blocks.BROWN_TERRACOTTA);
+                        entries.add(ModBlocks.BROWN_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.BROWN_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.BROWN_TERRACOTTA_WALL);
+
+                        entries.add(Blocks.RED_TERRACOTTA);
+                        entries.add(ModBlocks.RED_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.RED_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.RED_TERRACOTTA_WALL);
+
+                        entries.add(Blocks.ORANGE_TERRACOTTA);
+                        entries.add(ModBlocks.ORANGE_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.ORANGE_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.ORANGE_TERRACOTTA_WALL);
+
+                        entries.add(Blocks.YELLOW_TERRACOTTA);
+                        entries.add(ModBlocks.YELLOW_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.YELLOW_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.YELLOW_TERRACOTTA_WALL);
+
+                        entries.add(Blocks.LIME_TERRACOTTA);
+                        entries.add(ModBlocks.LIME_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.LIME_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.LIME_TERRACOTTA_WALL);
+
+                        entries.add(Blocks.GREEN_TERRACOTTA);
+                        entries.add(ModBlocks.GREEN_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.GREEN_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.GREEN_TERRACOTTA_WALL);
+
+                        entries.add(Blocks.CYAN_TERRACOTTA);
+                        entries.add(ModBlocks.CYAN_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.CYAN_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.CYAN_TERRACOTTA_WALL);
+
+                        entries.add(Blocks.LIGHT_BLUE_TERRACOTTA);
+                        entries.add(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.LIGHT_BLUE_TERRACOTTA_WALL);
+
+                        entries.add(Blocks.BLUE_TERRACOTTA);
+                        entries.add(ModBlocks.BLUE_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.BLUE_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.BLUE_TERRACOTTA_WALL);
+
+                        entries.add(Blocks.PURPLE_TERRACOTTA);
+                        entries.add(ModBlocks.PURPLE_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.PURPLE_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.PURPLE_TERRACOTTA_WALL);
+
+                        entries.add(Blocks.MAGENTA_TERRACOTTA);
+                        entries.add(ModBlocks.MAGENTA_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.MAGENTA_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.MAGENTA_TERRACOTTA_WALL);
+
+                        entries.add(Blocks.PINK_TERRACOTTA);
+                        entries.add(ModBlocks.PINK_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.PINK_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.PINK_TERRACOTTA_WALL);
+
+
+
                     }).build());
 
     public static void registerItemGroups() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(ModBlocks.BOWLDER);
+
             entries.add(ModItems.COPPER_NUGGET);
 
             entries.add(ModItems.RAW_IRON_NUGGET);

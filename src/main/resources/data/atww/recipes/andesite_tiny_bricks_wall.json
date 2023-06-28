@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tiny_bricks",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "atww:andesite_tiny_bricks"
+    }
+  },
+  "result": {
+    "item": "atww:andesite_tiny_bricks_wall",
+    "count": 6
+  }
+}

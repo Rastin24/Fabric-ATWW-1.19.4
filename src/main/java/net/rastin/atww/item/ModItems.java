@@ -41,6 +41,7 @@ public class ModItems {
             new Item(new FabricItemSettings()));
 
 
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(ATWWMod.MOD_ID, name), item);
     }
