@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "craft_group_wall",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:moss"
+    }
+  },
+  "result": {
+    "item": "atww:moss_wall",
+    "count": 6
+  }
+}

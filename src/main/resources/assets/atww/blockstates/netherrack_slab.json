@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "atww:block/netherrack_slab"
+    },
+    "type=double": {
+      "model": "atww:block/netherrack_slab_full"
+    },
+    "type=top": {
+      "model": "atww:block/netherrack_slab_top"
+    }
+  }
+}

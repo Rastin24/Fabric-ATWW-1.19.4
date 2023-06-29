@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "craft_group_stairs",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:honeycomb_block"
+    }
+  },
+  "result": {
+    "item": "atww:honeycomb_block_stairs",
+    "count": 4
+  }
+}

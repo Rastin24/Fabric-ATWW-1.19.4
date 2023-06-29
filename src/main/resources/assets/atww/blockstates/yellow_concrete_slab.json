@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "atww:block/yellow_concrete_slab"
+    },
+    "type=double": {
+      "model": "atww:block/yellow_concrete_slab_full"
+    },
+    "type=top": {
+      "model": "atww:block/yellow_concrete_slab_top"
+    }
+  }
+}

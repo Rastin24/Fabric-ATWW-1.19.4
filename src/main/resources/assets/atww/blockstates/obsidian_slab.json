@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "atww:block/obsidian_slab"
+    },
+    "type=double": {
+      "model": "atww:block/obsidian_slab_full"
+    },
+    "type=top": {
+      "model": "atww:block/obsidian_slab_top"
+    }
+  }
+}

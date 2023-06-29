@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "atww:block/snow_slab"
+    },
+    "type=double": {
+      "model": "atww:block/snow_slab_full"
+    },
+    "type=top": {
+      "model": "atww:block/snow_slab_top"
+    }
+  }
+}

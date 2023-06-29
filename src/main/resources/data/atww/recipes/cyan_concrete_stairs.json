@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "craft_group_stairs",
+  "pattern": [
+    "# ",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_concrete"
+    }
+  },
+  "result": {
+    "item": "atww:cyan_concrete_stairs",
+    "count": 4
+  }
+}

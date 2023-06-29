@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "craft_group_slab",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:endstone"
+    }
+  },
+  "result": {
+    "item": "atww:endstone_slab",
+    "count": 6
+  }
+}

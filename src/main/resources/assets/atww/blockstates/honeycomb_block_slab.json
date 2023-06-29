@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "atww:block/honeycomb_block_slab"
+    },
+    "type=double": {
+      "model": "atww:block/honeycomb_block_slab_full"
+    },
+    "type=top": {
+      "model": "atww:block/honeycomb_block_slab_top"
+    }
+  }
+}
